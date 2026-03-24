@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Harsh Nagdevte | Journalism Blog</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #f4f4f4;
+        transition: 0.3s;
+    }
+
+    /* NAVBAR */
+    nav {
+        background: #111;
+        color: white;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav h2 {
+        margin: 0;
+    }
+
+    nav button {
+        padding: 8px 12px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    /* CONTAINER */
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        margin-top: 30px;
+    }
+
+    p {
+        line-height: 1.8;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .meta {
+        color: gray;
+        font-size: 14px;
+    }
+
+    /* INFOGRAPHIC */
+    .box {
+        background: #eef3f7;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    /* ABOUT */
+    .about {
+        margin-top: 50px;
+        padding: 20px;
+        background: #222;
+        color: white;
+        border-radius: 10px;
+    }
+
+    /* DARK MODE */
+    .dark {
+        background: #121212;
+        color: white;
+    }
+
+    .dark .container {
+        background: #1e1e1e;
+    }
+
+    .dark nav {
+        background: black;
+    }
+
+    /* ANIMATION */
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Harsh Blogs</h2>
+    <button onclick="toggleDark()">🌙 Dark Mode</button>
+</nav>
+
+<div class="container">
+
+<h1>How Blogging Can Make You a Better Journalist</h1>
+<p class="meta">By Harsh Nagdevte | March 2026</p>
+
+<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c">
+
+<p>
+In the evolving world of journalism, where speed often competes with accuracy and noise sometimes overpowers substance, young journalists must find spaces that allow them to grow without fear. Blogging is one such space. It is not just a digital activity or a trend. It is a quiet workshop where a journalist is shaped, refined, and tested.
+</p>
+
+<p>
+As someone who has spent years observing the newsroom and its changing culture, I strongly believe that blogging brings a sense of ownership that traditional assignments often fail to provide. When you write a blog, you are not merely completing a task for marks or approval. You are expressing a thought that belongs to you.
+</p>
+
+<h2>Writing Discipline</h2>
+
+<p>
+Blogging teaches clarity and structure. You begin to understand how to communicate effectively with readers and avoid unnecessary complexity.
+</p>
+
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+
+<h2>Perspective</h2>
+
+<p>
+Blogging helps you observe society and think deeper. It transforms reporting into meaningful journalism.
+</p>
+
+<h2>Courage</h2>
+
+<p>
+Publishing your thoughts builds confidence and prepares you for real-world criticism and feedback.
+</p>
+
+<div class="box">
+<h3>Why Blogging Matters</h3>
+<ul>
+<li>Improves writing</li>
+<li>Builds voice</li>
+<li>Enhances research skills</li>
+<li>Creates portfolio</li>
+<li>Develops consistency</li>
+</ul>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>
+Blogging is not just writing. It is training, reflection, and growth. It shapes journalists who think, question, and tell stories that matter.
+</p>
+
+<div class="about">
+<h3>About the Author</h3>
+<p>
+Harsh Nagdevte is a journalism student passionate about media, storytelling, and public communication. This blog is part of his RTV academic assignment.
+</p>
+</div>
+
+</div>
+
+<script>
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
